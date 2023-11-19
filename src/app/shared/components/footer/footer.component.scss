@@ -1,0 +1,39 @@
+// @import "~font-awesome/css/font-awesome";
+
+.footer {
+  width: 100%;
+  height: 14.9375rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  background-color: #000;
+
+  .log {
+    color: #fff;
+  }
+
+  .footer_content {
+    color: #fff;
+    font-family: Manrope;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .media {
+    .icons-list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      gap: 10px;
+    }
+
+    .icon-list i {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

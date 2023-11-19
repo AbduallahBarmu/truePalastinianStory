@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "img": ["../assets/frame1.png"],
+    "date_year": 1936,
+    "year_event_title": "year_event_title",
+    "events": [
+      {
+        "id": 1,
+        "event_name": "The Arab Revolt begins opposing Jewish immigration",
+        "date": "April 19, 1936",
+        "month": "April",
+        "image": null,
+        "description": "Palestinian Arabs rebelled against British Mandate rule and Jewish immigration, seeking self-determination and an end to Jewish land purchases. British authorities imposed martial law to quell the unrest.",
+        "is_flagged": false,
+        "resource_links": [
+          {
+            "id": 1,
+            "url": "https://www.facebook.com/watch/?v=24727132033552820",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 2,
+            "url": "https://www.youtube.com/watch?v=A1LLBGTon6I",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 3,
+            "url": "https://www.facebook.com/watch/?v=792878686182330&extid=CL-UNK-UNK-UNK-AN_GK0T-GK1C&ref=sharing&mibextid=poYJrl",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 4,
+            "url": "https://www.youtube.com/watch?v=5Jam3vu3D4M",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 5,
+            "url": "https://www.youtube.com/watch?v=EUsbi5XNvoM",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 6,
+            "url": "https://www.youtube.com/watch?v=zqxe0VkmOJw",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 7,
+            "url": "https://www.youtube.com/watch?v=lF1ALH-bkHM",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 8,
+            "url": "https://www.youtube.com/watch?v=II9naIN71GQ",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 10,
+            "url": "https://www.youtube.com/watch?v=gas73_-SCIs",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 11,
+            "url": "https://www.youtube.com/watch?v=pvD-Jodpb8E",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 12,
+            "url": "https://www.youtube.com/watch?v=5Jam3vu3D4M",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 13,
+            "url": "https://www.youtube.com/watch?v=EUsbi5XNvoM",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 14,
+            "url": "https://www.youtube.com/watch?v=zqxe0VkmOJw",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 15,
+            "url": "https://www.youtube.com/watch?v=lF1ALH-bkHM",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 16,
+            "url": "https://www.youtube.com/watch?v=II9naIN71GQ",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 21,
+            "url": "https://www.instagram.com/reel/CyIuYdEL_Uy/?igshid=MzRlODBiNWFlZA%3D%3D&fbclid=IwAR1_YvP9jFTiRlGYJvpNy2rr8xAy7jZ7S9-xacMpNoTkHkEM5KfMAmaJpfo",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 22,
+            "url": "https://www.instagram.com/reel/CyjhFVDKsmz/?igshid=MzRlODBiNWFlZA%3D%3D&fbclid=IwAR02Gzv2suFnaYAdpOmx_pV6R23E-0vnh3SO_UBAd2-fWnB5kJOp_U6oVWE",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          },
+          {
+            "id": 23,
+            "url": "https://www.instagram.com/reel/CyvUz4DB7F9/?igshid=MzRlODBiNWFlZA%3D%3D&fbclid=IwAR3Txh9h-7WkFN35mPcBmXkUwrn89I8IcewA5NuunkOjgwGpC2FPvEkDy3w",
+            "event_info_id": 1,
+            "data_type_id": 3,
+            "created_at": "2023-10-26T22:01:54.000000Z",
+            "updated_at": "2023-10-26T22:01:54.000000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "img": ["../assets/frame2.png"],
+    "date_year": 1937,
+    "events": [
+      {
+        "id": 2,
+        "event_name": "The 1937 Peel Commission report proposes the two-state solution for the first time",
+        "date": "July 07, 1937",
+        "month": "July",
+        "image": null,
+        "description": "The Peel Commission suggested dividing Palestine into separate Jewish and Arab states, with an international enclave in Jerusalem, pioneering the two-state solution idea. Though not implemented, it set the stage for later developments.",
+        "is_flagged": false,
+        "resource_links": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "img": ["../assets/frame3.png"],
+    "date_year": 1939,
+    "events": [
+      {
+        "id": 3,
+        "event_name": "The 1939 British White Paper limits Jewish immigration",
+        "date": "May 17, 1939",
+        "month": "May",
+        "image": null,
+        "description": "Responding to the Arab Revolt, the 1939 White Paper limited Jewish immigration and land acquisitions, aligning with Arab demands and altering the conflict's course significantly.",
+        "is_flagged": false,
+        "resource_links": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "img": ["../assets/frame1.png"],
+    "date_year": 1947,
+    "events": [
+      {
+        "id": 4,
+        "event_name": "UN Passes Resolution 181 recommending partition of Palestine",
+        "date": "November 29, 1947",
+        "month": "November",
+        "image": null,
+        "description": "The UN passed Resolution 181 on November 29, 1947, suggesting the partition of Palestine into Jewish and Arab states with Jerusalem under UN administration. Jewish leaders accepted it, but Arab leaders rejected it.",
+        "is_flagged": false,
+        "resource_links": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "img": ["../assets/frame1.png"],
+    "date_year": 1948,
+    "events": [
+      {
+        "id": 5,
+        "event_name": "Declaration of the State of Israel",
+        "date": "May 14, 1948",
+        "month": "May",
+        "image": null,
+        "description": "On May 14, 1948, David Ben-Gurion, the head of the Jewish Agency, declared the establishment of the State of Israel in Tel Aviv. The declaration came one day before the expiration of the British Mandate in Palestine. This event marked the birth of the modern State of Israel.",
+        "is_flagged": false,
+        "resource_links": []
+      },
+      {
+        "id": 6,
+        "event_name": "Israel's declaration led to the first Arab-Israeli war",
+        "date": "May 14, 1948",
+        "month": "May",
+        "image": null,
+        "description": "Arab states, including Egypt, Jordan, Syria, and Iraq, intervened militarily in support of the Palestinian Arabs, aiming to prevent the establishment of Israel. An armistice in 1949 resulted in Israel's independence and territorial division.",
+        "is_flagged": false,
+        "resource_links": []
+      }
+    ]
+  }
+]
