@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EventService } from '../../service/event.service';
 
 @Component({
   selector: 'app-time-line',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./time-line.component.scss']
 })
 export class TimeLineComponent {
-
+ 
 }
