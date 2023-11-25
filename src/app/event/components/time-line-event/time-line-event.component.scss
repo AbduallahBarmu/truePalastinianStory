@@ -28,8 +28,10 @@
   position: absolute;
   width: 0.1875rem;
   height: 76.78256rem;
-  background: #a6a2a2;
+  // background: #a6a2a2;
   left: calc(50% - 1px);
+  border-left: 1px dashed #a6a2a2;
+
 }
 
 /* Styles for left-aligned timeline items */
@@ -49,13 +51,14 @@
 }
 
 .timeline-dot {
-  height: 10px;
+  height: 30px;
   width: 2rem;
   background-color: #9d0208;
   position: absolute;
   left: calc(50% - 15px);
   border-radius: 50%;
   top: 10px;
+  
 }
 
 .timeline-date {

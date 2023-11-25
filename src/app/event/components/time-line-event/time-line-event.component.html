@@ -4,20 +4,21 @@
 			<div class="timeline-dot"></div>
 			<div class="timeline-date" 
 				[ngClass]="{ 'timeline-date-right': isEven(i), 'timeline-date-left': !isEven(i) }">
-				{{item.date_year}}
+				{{item.date_year}} 
+				<span class="event-month">{{ item.events[0]?.month }}</span>
 			</div>
 			<div>
-				<img class="frame-img" src="{{item.img}}" alt="">
+				<!-- <a [routerLink]="['/event-profile', item.id]"> -->
+					<img class="frame-img" src="{{item.img}}" alt="">
+				  <!-- </a> -->
 			</div>
-			<div class="event-list" *ngFor="let event of item.events">
+			<div class="event-list">
 				<ul class="event-list-items">
 					<li class="item">
-						<p class="event-title">{{ event.event_name }}</p>
-						<p class="event-month">{{ event.month }}</p>
+						<h2 class="event-title">{{ item.year_title }}</h2>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	
 </section>

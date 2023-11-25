@@ -3,7 +3,7 @@
     "id": 1,
     "img": ["../assets/frame1.png"],
     "date_year": 1936,
-    "year_event_title": "year_event_title",
+    "year_title": "year_event_title",
     "events": [
       {
         "id": 1,
@@ -166,6 +166,7 @@
     "id": 2,
     "img": ["../assets/frame2.png"],
     "date_year": 1937,
+    "year_title": "year_event_title",
     "events": [
       {
         "id": 2,
@@ -183,6 +184,7 @@
     "id": 3,
     "img": ["../assets/frame3.png"],
     "date_year": 1939,
+    "year_title": "year_event_title",
     "events": [
       {
         "id": 3,
@@ -200,6 +202,7 @@
     "id": 4,
     "img": ["../assets/frame1.png"],
     "date_year": 1947,
+    "year_title": "year_event_title",
     "events": [
       {
         "id": 4,
@@ -217,6 +220,7 @@
     "id": 5,
     "img": ["../assets/frame1.png"],
     "date_year": 1948,
+    "year_title": "year_event_title",
     "events": [
       {
         "id": 5,
