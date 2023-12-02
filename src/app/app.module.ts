@@ -9,9 +9,10 @@ import { EventProfileComponent } from './event/components/event-profile/event-pr
 import { MaterialModule } from "./shared/module/material.module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NotfoundsComponent } from './home/components/notfounds/notfounds.component';
 
 @NgModule({
-  declarations: [AppComponent, EventProfileComponent],
+  declarations: [AppComponent, EventProfileComponent, NotfoundsComponent],
   imports: [BrowserModule, AppRoutingModule, SharedModule, MaterialModule, HomedModule, BrowserAnimationsModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent]
