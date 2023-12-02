@@ -11,18 +11,21 @@ import { environment } from "src/environments/environment.prod";
   providedIn: "root"
 })
 export class EventService {
-  // private apiUrl = environment.apiBaseUrl;
+  private apiUrl = '../../../assets/data.json';
+  
   constructor(private http: HttpClient) {}
 
-  getEvents(): Observable<any[]> {
-    return this.http.get<any[]>("../../../assets/data.json");
+  getEvents(): Observable<Events[]> {
+    return this.http.get<Events[]>("../../../assets/data.json");
   }
+
+  getEventById(id: number): Observable<Event> {
+    return this.http.get<Event>(`${this.apiUrl}events/` + id);
+  }
+
 
   // getEvents(): Promise<Events[]> {
   //   return firstValueFrom(this.http.get<Events[]>(`${this.apiUrl}/events`));
   // }
 
-  // getEventById(id: number): Promise<Event> {
-  //   return firstValueFrom(this.http.get<Event>(`${this.apiUrl}events/` + id));
-  // }
 }

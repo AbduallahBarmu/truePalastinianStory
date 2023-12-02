@@ -1,5 +1,5 @@
 export interface Events {
-  id: string;
+  id:  string;
   img: string[];
   date_year: number;
   year_title: string;

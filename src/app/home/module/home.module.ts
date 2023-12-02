@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeroComponent } from '../components/hero/hero.component';
 import { HomeComponent } from '../components/home/home.component';
 import { EventModule } from 'src/app/event/module/event.module';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -10,7 +11,8 @@ import { EventModule } from 'src/app/event/module/event.module';
   declarations: [HeroComponent, HomeComponent],
   imports: [
     CommonModule, 
-    EventModule
+    EventModule, 
+    RouterModule
   ],
   exports:[HomeComponent]
 })

@@ -1,13 +1,13 @@
 <section class="navbar">
     <div class="navbar_content">
         <div class="left">
-            <img class="logo"
-            routerLink="/home" 
-            src="../../../../assets/logo.svg" alt="">
+            <a routerLink="/">
+                <img class="logo" routerLink="/home" src="../../../../assets/logo.svg" alt="">
+            </a>
         </div>
         <div class="right">
             <ul class="nav_items">
-                <li> <button class="nav_btn"> What’s happening now? </button></li>
+                <li> <button (click)="navigateToEvents()" class="nav_btn"> What’s happening now? </button></li>
                 <li> <button class="nav_btn" id="res_btn" routerLink="/eventProfile"> Resources </button></li>
             </ul>
         </div>

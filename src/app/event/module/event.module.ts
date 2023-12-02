@@ -4,6 +4,7 @@ import { TimeLineComponent } from '../components/time-line/time-line.component';
 import { TimeLineEventComponent } from '../components/time-line-event/time-line-event.component';
 import { EventService } from '../service/event.service';
 import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { HttpClientModule } from '@angular/common/http';
   providers:[EventService],
   imports: [
     HttpClientModule,
-    CommonModule
+    CommonModule, 
+    RouterModule
   ],
   exports:[TimeLineComponent]
 })
