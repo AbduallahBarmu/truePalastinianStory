@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { EventProfileComponent } from './event/components/event-profile/event-profile.component';
 
 const routes: Routes = [
-  {path:'event-profile/:id', component:EventProfileComponent} ,
-
+  { path: 'event-profile/:id', component: EventProfileComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' }, /default route
 ];
 
 @NgModule({
