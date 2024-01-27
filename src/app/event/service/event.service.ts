@@ -1,11 +1,10 @@
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
-import { BehaviorSubject, firstValueFrom } from "rxjs";
+import { map } from 'rxjs/operators';
 
 import { HttpClient } from "@angular/common/http";
-import { Events } from "src/app/interface/events";
-import { Event } from "src/app/interface/event";
-import { environment } from "src/environments/environment.prod";
+import { Events } from "../../interface/events";
+import { Event } from "../../interface/event";
 
 @Injectable({
   providedIn: "root"
@@ -16,16 +15,12 @@ export class EventService {
   constructor(private http: HttpClient) {}
 
   getEvents(): Observable<Events[]> {
-    return this.http.get<Events[]>("../../../assets/data.json");
+    return this.http.get<Events[]>(this.apiUrl);
   }
 
-  getEventById(id: number): Observable<Event> {
-    return this.http.get<Event>(`${this.apiUrl}events/` + id);
+  getEventById(id: string): Observable<Event | undefined> {
+    return this.http.get<Event[]>(this.apiUrl).pipe(
+      map((events: Event[]) => events.find((event: Event) => event.id === id))
+    );
   }
-
-
-  // getEvents(): Promise<Events[]> {
-  //   return firstValueFrom(this.http.get<Events[]>(`${this.apiUrl}/events`));
-  // }
-
 }

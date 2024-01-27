@@ -1,26 +1,16 @@
-<section class="event-info">
-    <div class="event-description-container">
-      
-      <h1 class="title">TITLE FOR EVENT</h1>
-      <h2 class="date">07/10/2023</h2>
-      
-      <p class="description">
-        Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.
-        Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı
-        oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri
-        endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl
-        boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden
-        elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları 
-      </p>
-    </div>
-    
-    <div class="event-img">
-      <img
-      
-        src="https://www.palestine-studies.org/sites/default/files/images/events/singleimage/Palestinian%20refugees%20fleeing%20their%20homes%20near%20Haifa%2C%20June%201948%20Credit_%20Corbis.png"
-        alt="nakba"
-        width="200"
-      />
-    </div>
-  </section>
-  
+<section class="event-info" *ngIf="event">
+  <div class="event-description-container">
+    <p class="description">
+      {{ event.event_name }}
+    </p>
+    <h1>{{ event.description}}</h1>
+  </div>
+
+  <div class="event-img">
+    <img
+      src="{{ event.image }}"
+      alt="Event Image"
+      width="200"
+    />
+  </div>
+</section>

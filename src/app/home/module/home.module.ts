@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
 
 
 @NgModule({
-  declarations: [HeroComponent, HomeComponent],
+  declarations: [HeroComponent, HomeComponent , ],
   imports: [
     CommonModule, 
     EventModule, 

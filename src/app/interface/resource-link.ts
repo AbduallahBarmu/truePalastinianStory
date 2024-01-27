@@ -1,4 +1,5 @@
 export interface ResourceLink {
+  
   id: string;
   url: string;
   event_info_id: number;

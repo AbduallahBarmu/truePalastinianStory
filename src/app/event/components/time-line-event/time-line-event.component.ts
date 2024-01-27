@@ -15,6 +15,7 @@ export class TimeLineEventComponent {
 
   ngOnInit(): void {
     this.ngGetEvents();
+    console.log('data', this.data)
   }
 
 
@@ -23,11 +24,6 @@ export class TimeLineEventComponent {
     this.data = data;
   });
 }
-
-  // async GetEvents(){
-  //  this.data = await this.eventService.getEvents() ;  
-  // }
-
   isEven(index: number): boolean {
     return index % 2 === 0;
   }
